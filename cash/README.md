@@ -1,13 +1,13 @@
 # cash
-<p align="center">
-  <img src="./rdm_img/Currency_Exchange.jpg" alt="Intro image">
-</p>
 
 ## How it works
 
 The Cash application will allow you to easily convert a currency in another currency.
 
 32 currencies are currently available. 
+<p align="left">
+  <img src="./rdm_img/Currency_Exchange.jpg" alt="Intro image">
+</p>
 
 ## Installation
 
