@@ -11,7 +11,7 @@ const API = 'https://api.fixer.io/latest';
  * Converts an amount of a currency to another currency
  * @param {int} amount - The amount you want to convert
  * @param {string} to - The currency that will be converted
- * @param {string} from - The currency that we want to convert
+ * @param {string} from - The initial currency
  * @param {object} response - The API Response
  * @param {object} loading - Information message 
  ***/
@@ -46,7 +46,7 @@ const convert = configuration => {
  * Cash is the main function that will do the job of converting a currency by using the API and the convert function
  * @param {int} amount - The amount you want to convert
  * @param {string} to - The currency that will be converted
- * @param {string} from - The currency that we want to convert
+ * @param {string} from - The initial currency
  ***/
 const cash = async command => {
   const amount = command.amount;
